@@ -8,3 +8,4 @@ the py file reads the raps.csv file, takes the players names and fg% and dumps o
 future plans: 
 - django app (then can use a better graphing api such as HighCharts to make charts more interactive)
 - user uploaded csv files
+- options for users

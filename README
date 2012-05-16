@@ -1,0 +1,11 @@
+stats grapher.
+
+purpose: gives the user a better visual of basketball statistics. run the script, auto graphs it for you.
+
+early stages. basically a prototype of the application. 
+the py file reads the raps.csv file, takes the players names and fg% and dumps out a bar graph.
+
+future plans: 
+- django app (then can use a better graphing api such as HighCharts to make charts more interactive)
+- user uploaded csv files
+- options for users

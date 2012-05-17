@@ -6,7 +6,7 @@ early stages. basically a prototype of the application.
 the py file reads the raps.csv file, takes some commandline arguments and dumps out a bar graph in a pdf file.
 
 Options:
-age g gs mp fg fga fg% 3p	3pa	3p%	ft fta ft% orb drb trb ast stl blk tov pf	pts
+age g gs mp fg fga fg% 3p 3pa 3p%ft fta ft% orb drb trb ast stl blk tov pf pts
 
 example:
 python raptors.py fg% (dumps out a graph of players fg%s)

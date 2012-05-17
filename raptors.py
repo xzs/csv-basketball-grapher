@@ -18,6 +18,8 @@ if (len(sys.argv) > 1):
 	        for row in reader:
 	            v_store.append (row[dict_types[sys.argv[1]]])
 	            n_store.append (row[1]) #always append the name
+else:
+	sys.exit('Missing argument for: %s' % sys.argv[0])
 
 #cast each of the items in array to type float
 values = [float(x) for x in v_store[1:len(v_store)]]

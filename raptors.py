@@ -19,7 +19,7 @@ def getMaxValue(values = []):
 
 #create a bar graph
 def getPDF(values = []):
-    d = Drawing(1800, 1000) #image size
+    d = Drawing(1700, 900) #image size
 
     chart = VerticalBarChart()
     chart.width = 1600
